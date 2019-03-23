@@ -1,0 +1,12 @@
+a = 'abcdefg'
+b = 'I have an apple'
+
+def reverse(str1):
+    new = ''
+    s = str1.split()
+    for i in range(len(s)):
+        new = new + s[i][::-1] + ' '
+    print(new)
+    
+reverse(a)
+reverse(b)
